@@ -23,3 +23,6 @@ MVC5 Oauth with google,facebook,twitter and microsoft.
             });*/
 ```
 这里填写申请的key.
+
+申请方法参考:  
+[1]:https://docs.microsoft.com/zh-cn/aspnet/core/security/authentication/social/facebook-logins?tabs=aspnetcore2x
