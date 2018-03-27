@@ -46,23 +46,23 @@ namespace BankTeach
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // 取消注释以下行可允许使用第三方登录提供程序登录
-            app.UseMicrosoftAccountAuthentication(
-                clientId: "5a92d48e-84be-44e5-a83f-7c37b827de54",
-                clientSecret: "corkIDN57!szcRZYQ688::_");
+            /*app.UseMicrosoftAccountAuthentication(
+                clientId: "",
+                clientSecret: "");
 
             app.UseTwitterAuthentication(
-               consumerKey: "7r1YKSi8iQWa1SbPwCrCQ9vwj",
-               consumerSecret: "2PCZBd2tweGxGjCf6AWCg20AlVZIjQDXRlWjXcKw8ABy5Uucun");
+               consumerKey: "",
+               consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "1328463287253904",
-               appSecret: "8f25d63c6dc4e5c3ae6bb46c3312d7cb");
+               appId: "",
+               appSecret: "");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "899142314096-aq459sr9afmacettqa1lpfp6v13rrp88.apps.googleusercontent.com",
-                ClientSecret = "Fkj0__8cIOP-5vIf7mpJTqQ1"
-            });
+                ClientId = "",
+                ClientSecret = "
+            });*/
         }
     }
 }
